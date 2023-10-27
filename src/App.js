@@ -7,12 +7,25 @@
 
 import GalleryG from './recap';
 
-export default function App(){
+import Hello from './recap';
 
+class App extends Component {
+  render(){
     return(
-         <GalleryG />
+        <div className='App'>
+          <Hello/>
+
+        </div>
+    );
+  }
+}
+
+//export default function App(){
+
+    //return(
+         //<GalleryG />
 
     
-    );
+ //   );
  
-  }
+  //}
